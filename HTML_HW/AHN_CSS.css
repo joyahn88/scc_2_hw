@@ -1,0 +1,136 @@
+*{margin:0;
+padding: 0;}
+
+.box-container{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin: 10px;
+	padding: 30px;
+	background: linear-gradient(to right, #0062E6, #33AEFF);
+    background-image: linear-gradient(to right, rgb(0, 98, 230), rgb(51, 174, 255));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    border-radius: 10px;
+}
+
+.box-container-2{ display: block;
+	padding-left: 300px;
+    padding-right: 300px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tesla{
+	display: flex;
+	align-items: center;
+	padding-top: 5px;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+.A{
+	margin-bottom: 2em;
+	display: block;
+	position: relative;
+	}
+
+.A-title{
+	display: inline-block;
+	font-size: 40px;
+	font-weight: normal;
+	text-align: left;
+	color: #fff;
+    font-weight: 300;
+}
+
+.A-title-value{
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 10px;
+	color: #fff;
+    font-weight: 300;
+}
+
+.article{
+	display: block;
+	font-size: 1rem;
+	margin-top: 10px;
+	color: rgba(255,255,255,.5);
+}
+
+#B{
+	margin-top: 20px;
+	text-align: left;
+	align-content: left;
+
+}
+
+.B-title{
+	display: inline-block;
+	font-size: 40px
+}
+
+.text-container{
+	align-items: left;
+	vertical-align: middle;
+	font-size: 20px;
+	margin-top: 20px;
+	width: 500px;
+}
+
+.form-horizontal {
+  margin-top: 10px;
+}
+
+input, select{
+ 	margin: 0;
+ 	border-width: 1px;
+ 	border-color: grey;
+ 	border-radius: 3px;
+ 	padding: 5px;
+ 	vertical-align: middle;
+ 	cursor: pointer;
+      }
+
+
+.box{
+	margin: 20px;
+	}
+
+.box-1, .form-control1{
+	float:right;
+}
+
+
+#C{
+	margin-top: 30px;
+	padding: 10px;
+	text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.button{
+	width: 300px;
+	height: auto;
+	font-size: 20px;
+	margin: 0;
+ 	border-width: 1px;
+ 	border-color: grey;
+ 	border-radius: 3px;
+ 	padding: 5px;
+ 	vertical-align: middle;
+    border-radius: 30px;
+    outline: 0;
+}
